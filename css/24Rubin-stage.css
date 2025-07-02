@@ -1676,7 +1676,7 @@ figcaption {
 }
 
 .scaling_card_img-1 {
-	background-image: url('../images/Chart.png');
+	background-image: url('../images/Rocket.png');
 	background-position: 50%;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -1715,9 +1715,10 @@ figcaption {
 }
 
 .scaling_card_img-3 {
-	background-image: url('../images/Rocket.png');
+	background-image: url('../images/Chart.png');
 	background-position: 50%;
 	background-size: contain;
+	background-repeat: no-repeat;
 	flex: none;
 	width: 160px;
 	height: 160px;
