@@ -1,0 +1,3 @@
+   mkdir my-hosting-project
+   cd my-hosting-project
+   npm init -y

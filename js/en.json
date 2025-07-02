@@ -1,0 +1,48 @@
+{
+    "nav_home": "Home",
+    "nav_how_it_works": "How does this work?",
+    "nav_our_advantages": "Our advantages",
+    "nav_contacts": "Contacts",
+
+    "hero_title": "Payment solutions for Argentina",
+    "hero_description": "Accept ARS payments to CVU and cards. Fast, secure, no hidden fees. Solutions for businesses and freelancers.",
+    "button_leave_request": "Contact via Telegram",
+
+    "block_1_title_1": "ARS Processing",
+    "block_1_text_1": "Accept Visa, MasterCard, and all major Argentinian cards. Instantly receive ARS to your CVU or card. Transparent rates, no hidden fees.",
+    "block_1_title_2": "24/7 Support",
+    "block_1_text_2": "Our team of experts is always available to help with integration and payment questions.",
+    "block_1_title_3": "Single API — maximum flexibility",
+    "block_1_text_3": "Integrate once — access all payment tools. Scale your business without limits.",
+    "block_1_title_4": "Enterprise-grade security",
+    "block_1_text_4": "Your funds and data are protected by encryption, 3D Secure, and 2FA. Full compliance with Argentinian standards.",
+
+    "block_2_title": "Our Solutions",
+    "block_2_title_1": "P2P transfers to CVU & cards",
+    "block_2_text_1": "Instantly receive ARS from any Argentinian bank. Your clients pay to CVU or card, and you get notifications and transparent reporting.",
+    "block_2_title_2": "E-commerce acquiring",
+    "block_2_text_2": "Accept online payments for your store or platform. Supports subscriptions, refunds, and chargeback management.",
+
+    "block_3_title": "Scale your business with us",
+    "block_3_description": "Solutions for growth — from startups to large companies.",
+    "block_3_title_1": "Quick start",
+    "block_3_text_1": "Integration in 1 day.",
+    "block_3_title_2": "Transparent analytics",
+    "block_3_text_2": "Track all operations online.",
+    "block_3_title_3": "Flexible rates",
+    "block_3_text_3": "Pay only for results.",
+    "block_3_title_4": "Personal manager",
+    "block_3_text_4": "Support at every stage.",
+
+    "block_4_title": "How does the backend work?",
+    "block_4_text_1": "The client initiates a payment and transfers ARS to your CVU or card. The system instantly detects the incoming funds.",
+    "block_4_text_2": "Once funds are received, we verify, comply with all requirements, and prepare the payout. Everything is automated.",
+    "block_4_text_3": "Net funds are credited to your account. You receive notifications and can track all operations in real time.",
+    "block_4_text_4": "Our technical support team monitors all transactions 24/7 for your security.",
+
+    "block_5_title": "Contact us",
+    "block_5_description": "Leave a request or write to us on Telegram — we will reply within 5 minutes.",
+
+    "footer_contact_us": "Write to us",
+    "footer_lang": "Lang"
+}
