@@ -1398,6 +1398,7 @@ figcaption {
 	align-items: center;
 	padding: 30px 50px 30px 40px;
 	display: flex;
+	column-gap: 3em;
 }
 
 .hero_bg {
