@@ -1713,7 +1713,7 @@ figcaption {
 	position: relative;
 }
 #Solutions > .padding-global {
-    background: black;
+    /* background: black; */
     border-radius: 60px;
 }
 .scaling_card_img-3 {
@@ -1779,17 +1779,19 @@ figcaption {
 
 .solutions_card_img {
 	z-index: 2;
-	background-image: url('../images/Solutions2.png');
+	background-image: url('../images/solution3.jpg');
 	background-position: 50%;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	width: 100%;
+	background-size: contain;
 	height: 23rem;
 	position: relative;
 }
 
 .solutions_card_img.is-2 {
-	background-image: url('../images/Solutions.png');
+	background-image: url('../images/solution2.jpg');
+	background-size: cover;
 }
 
 .solutions_card_content {
@@ -1803,7 +1805,7 @@ figcaption {
 	position: relative;
 	margin-top: 3em;
 	text-align: left;
-	color: #f14c63;
+	/* color: #f14c63; */
 	flex-direction: column;
 }
 
@@ -1870,7 +1872,7 @@ figcaption {
 }
 
 .hero_bg_img {
-	background-image: url('../images/hero2.png');
+	background-image: url('../images/hero.jpg');
 	background-position: 50% bottom;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -2795,6 +2797,11 @@ figcaption {
 	.scaling_card_img-1 {
 		top: -46px;
 		left: -5px;
+	}
+	.scaling_card_header ~ p,
+
+	.scaling_card_header {
+		text-align: center;
 	}
 
 	.solutions_card_img {
