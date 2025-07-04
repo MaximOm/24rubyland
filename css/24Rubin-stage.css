@@ -2805,10 +2805,15 @@ figcaption {
 	}
 
 	.solutions_card_img {
-		width: 18rem;
+		width: 100vw;
 		height: 18rem;
+		position: absolute;
+		background-size: cover;
 	}
 
+	.solutions_card_content{
+		padding-left: 0;
+	}
 	.solutions_header {
 		font-size: 4.25rem;
 	}
