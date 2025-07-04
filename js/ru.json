@@ -47,6 +47,27 @@
     "block_5_title_2": "Вопросы ?",
     "block_5_description_2": "Свяжитесь с нами в Telegram и получите быстрый ответ от нашей команды. Какое платежное решение вас интересует?",
 
+    "block_industries_title": "А ТАКЖЕ",
+    "block_industries_subtitle": "По запросу настраиваем платежные системы к любым продуктам",
+    "industry_betting": "Беттинг",
+    "industry_adult_content": "Контент 18+",
+    "industry_forex": "Форекс",
+    "industry_telecom": "Телекоммуникации",
+    "industry_art_trading": "Онлайн-торговля предметами искусства",
+    "industry_horoscope": "Гороскоп",
+    "industry_freelance": "Фриланс",
+    "industry_telemarketing": "Телемаркетинг",
+    "industry_nutra": "NUTRA",
+    "industry_auctions": "Интернет-аукционы",
+    "industry_software": "Загрузка ПО",
+    "industry_igaming": "Igaming",
+    "industry_marketing": "Маркетинг",
+    "industry_travel": "Путешествия",
+    "industry_high_risk": "High risk",
+    "industry_mail_order": "Заказ по почте / телефону",
+    "industry_online_trading": "Онлайн-торговля",
+    "industry_online_retail": "Онлайн-ритейл",
+
     "footer_contact_us": "Напишите нам",
     "footer_lang": "Язык"
 }
