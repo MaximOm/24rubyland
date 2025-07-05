@@ -3068,7 +3068,7 @@ figcaption {
     background-image: url(../images/title.png);
     background-repeat: no-repeat;
     background-position: center;
-    top: 24vh;
+    top: 16vh;
 }
 
 .w-richtext> :not(div):first-child,
