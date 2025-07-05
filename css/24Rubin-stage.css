@@ -2109,6 +2109,58 @@ figcaption {
 }
 
 
+
+.logo_title {
+    width: 80vw;
+    position: absolute;
+    height: 129px;
+    z-index: 99;
+    left: 10vw;
+    /* border: 1px solid green; */
+    background-size: contain;
+    background-image: url(../images/title.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 16vh;
+}
+
+.w-richtext> :not(div):first-child,
+.w-richtext>div:first-child> :first-child {
+	margin-top: 0 !important;
+}
+
+.w-richtext>:last-child,
+.w-richtext ol li:last-child,
+.w-richtext ul li:last-child {
+	margin-bottom: 0 !important;
+}
+
+.container-medium,
+.container-small,
+.container-large {
+	margin-right: auto !important;
+	margin-left: auto !important;
+}
+
+.text-style-3lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.text-style-2lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.hide {
+	display: none !important;
+}
+
+
 @media screen and (max-width: 610px) {
 	.button_full_w {
 		width: 100%;
@@ -3038,6 +3090,7 @@ figcaption {
 		background-position: center 0px;
 		left: 0;
 		position: absolute;
+		top: unset;
 	}
 }
 
@@ -3055,57 +3108,6 @@ figcaption {
 	}
 }
 
-
-
-.logo_title {
-    width: 80vw;
-    position: absolute;
-    height: 129px;
-    z-index: 99;
-    left: 10vw;
-    /* border: 1px solid green; */
-    background-size: contain;
-    background-image: url(../images/title.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    top: 16vh;
-}
-
-.w-richtext> :not(div):first-child,
-.w-richtext>div:first-child> :first-child {
-	margin-top: 0 !important;
-}
-
-.w-richtext>:last-child,
-.w-richtext ol li:last-child,
-.w-richtext ul li:last-child {
-	margin-bottom: 0 !important;
-}
-
-.container-medium,
-.container-small,
-.container-large {
-	margin-right: auto !important;
-	margin-left: auto !important;
-}
-
-.text-style-3lines {
-	display: -webkit-box;
-	overflow: hidden;
-	-webkit-line-clamp: 3;
-	-webkit-box-orient: vertical;
-}
-
-.text-style-2lines {
-	display: -webkit-box;
-	overflow: hidden;
-	-webkit-line-clamp: 2;
-	-webkit-box-orient: vertical;
-}
-
-.hide {
-	display: none !important;
-}
 
 @media screen and (max-width: 991px) {
 
