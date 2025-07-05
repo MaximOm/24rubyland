@@ -640,9 +640,17 @@
         const translations = await loadTranslations(lang);
         applyTranslations(translations);
         localStorage.setItem('selectedLanguage', lang);
+        // Обновить селекторы языка в шапке, футере и бургере
+        const langLabel = lang.toUpperCase();
+        const top = document.getElementById('selected-language-top');
+        const footer = document.getElementById('selected-language-footer');
+        const burger = document.getElementById('selected-language-burger');
+        if (top) top.innerText = langLabel;
+        if (footer) footer.innerText = langLabel;
+        if (burger) burger.innerText = langLabel;
         window.scrollTo({
           top: 0,
-          behavior: 'smooth' // Плавная прокрутка
+          behavior: 'smooth'
         });
       }
 
