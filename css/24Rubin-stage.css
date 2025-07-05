@@ -3082,13 +3082,13 @@ figcaption {
 	}
 	.logo_title{
 		background-image: url('../images/title.png');
-		width: 100%;
+		width: 60%;
 		height: 37px;
 		/* border: 1px solid green; */
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center 0px;
-		left: 0;
+		left: 20%;
 		position: absolute;
 		top: unset;
 	}
