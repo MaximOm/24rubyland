@@ -46,7 +46,7 @@
 	--link-color--link-alternate: var(--base-color-neutral--white);
 }
 
-nav_background {
+.nav_background {
 	position: absolute;
 	top: -20vh;
 	left: 0;
