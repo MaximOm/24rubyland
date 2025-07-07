@@ -1,7 +1,7 @@
 {
   "name": "24Rubin",
   "short_name": "24Rubin",
-  "start_url": "/v1/",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
