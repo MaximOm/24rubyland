@@ -3133,14 +3133,6 @@ figcaption {
 	}
 }
 
-@media screen and (max-width: 479px) {
-	.hide-mobile {
-	display: none !important;
-	}
-	.footer_logo_icon{
-		padding-bottom: 0;
-	}
-}
 
 .margin-0 {
 	margin: 0rem !important;
@@ -3344,3 +3336,23 @@ body {
 	}
 }
 
+
+@media screen and (max-width: 479px) {
+	.hide-mobile {
+	display: none !important;
+	}
+	.footer_logo_icon{
+		padding-bottom: 0;
+	}
+	
+	.industries_grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+		gap: 0;
+		margin-bottom: 3rem;
+	}
+	.industries_column{
+		margin: 0;
+		padding: 0 2rem;
+	}
+}
