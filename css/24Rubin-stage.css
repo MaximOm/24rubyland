@@ -2315,8 +2315,8 @@ figcaption {
 		height: 80vh;
 	}
 	.hero_bg_img {
-		background-position: 50% 130%;
-		background-size: 90%;
+		background-position: 50% 220%;
+		background-size: 100%;
 	}
 	#Benefits{
 		margin-top: 10vh;
@@ -2331,11 +2331,11 @@ figcaption {
 		height: 80vh;
 	}
 	.hero_bg_img {
-		background-position: 50% 130%;
-		background-size: 90%;
+		background-position: 50% 210%;
+		background-size: 80%;
 	}
 	#Benefits{
-		margin-top: 10vh;
+		margin-top: 0vh;
 	}
 }
 
