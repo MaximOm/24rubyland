@@ -1103,7 +1103,7 @@ figcaption {
 }
 
 .text-size-medium {
-	font-size: 1.25rem;
+	font-size: 2.05rem;
 }
 
 .fs-styleguide_section {
@@ -1885,7 +1885,7 @@ figcaption {
 
 .hero_bg_img {
 	background-image: url('../images/hero2.png');
-	background-position: 50% bottom;
+	background-position: 50% 240%;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
@@ -1937,6 +1937,7 @@ figcaption {
 
 #w-node-f63cbc6a-01b0-c56e-95d4-065080c06eda-1b217c45 {
 	grid-area: span 1 / span 1 / span 1 / span 1;
+	display: none;
 }
 
 #w-node-ee02833b-776a-f0db-445a-f598e45ac5dc-1b217c45 {
@@ -3050,6 +3051,7 @@ figcaption {
 	}
 	#w-node-f63cbc6a-01b0-c56e-95d4-065080c06eda-1b217c45{
 		padding-top: 0px;
+		display: block;
 	}
 	.backend_card-2 {
 		flex-flow: column;
@@ -3282,7 +3284,7 @@ figcaption {
 }
 
 .industries_item:before {
-	content: '●';
+	content: 'â—';
 	color: #C1002A;
 	font-size: 0.8rem;
 	margin-right: 0.75rem;
@@ -3304,7 +3306,7 @@ figcaption {
 }
 
 .industries_subtitle::before {
-	content: '⚡';
+	content: 'âš¡';
 	margin-right: 0.5rem;
 	color: #C1002A;
 }
