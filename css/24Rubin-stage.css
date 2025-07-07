@@ -2315,7 +2315,22 @@ figcaption {
 		height: 80vh;
 	}
 	.hero_bg_img {
-		background-image: url('../images/hero2.png');
+		background-position: 50% 130%;
+		background-size: 90%;
+	}
+	#Benefits{
+		margin-top: 10vh;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.hero_bg {
+		height: 80vh;
+	}
+	section#Hero {
+		height: 80vh;
+	}
+	.hero_bg_img {
 		background-position: 50% 130%;
 		background-size: 90%;
 	}
