@@ -2315,8 +2315,8 @@ figcaption {
 		height: 80vh;
 	}
 	.hero_bg_img {
-		background-position: 50% 220%;
-		background-size: 100%;
+		background-position: 50% 22vh;
+		background-size: 90%;
 	}
 	#Benefits{
 		margin-top: 10vh;
@@ -3321,7 +3321,7 @@ figcaption {
 }
 
 .industries_item:before {
-	content: '●';
+	content: 'â—';
 	color: #C1002A;
 	font-size: 0.8rem;
 	margin-right: 0.75rem;
@@ -3343,7 +3343,7 @@ figcaption {
 }
 
 .industries_subtitle::before {
-	content: '⚡';
+	content: 'âš¡';
 	margin-right: 0.5rem;
 	color: #C1002A;
 }
