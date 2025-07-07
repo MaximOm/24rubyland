@@ -1353,7 +1353,7 @@ figcaption {
 
 .hero_heading {
 	text-align: center;
-	font-size: 3rem;
+	font-size: 2.5rem;
 }
 
 .section_hero {
@@ -1885,7 +1885,7 @@ figcaption {
 
 .hero_bg_img {
 	background-image: url('../images/hero2.png');
-	background-position: 50% 240%;
+	background-position: 50% 390%;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
