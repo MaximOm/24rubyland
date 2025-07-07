@@ -1723,8 +1723,8 @@ figcaption {
 	position: relative;
 }
 #Solutions > .padding-global {
-    /* background: black; */
-    border-radius: 60px;
+	/* background: black; */
+	border-radius: 60px;
 }
 .scaling_card_img-3 {
 	background-image: url('../images/Chart.png');
@@ -2121,18 +2121,18 @@ figcaption {
 
 
 .logo_title {
-    width: 80vw;
-    position: absolute;
-    height: 20vh;
-    z-index: 99;
-    left: 10vw;
-    /* border: 1px solid green; */
-    background-size: contain;
-    background-image: url(../images/title.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    top: 46vh;
-    filter: drop-shadow(0px 0px 20px #000000dd);
+	width: 80vw;
+	position: absolute;
+	height: 20vh;
+	z-index: 99;
+	left: 10vw;
+	/* border: 1px solid green; */
+	background-size: contain;
+	background-image: url(../images/title.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	top: 46vh;
+	filter: drop-shadow(0px 0px 20px #000000dd);
 }
 
 .w-richtext> :not(div):first-child,
@@ -3216,11 +3216,6 @@ figcaption {
 	padding-left: 0rem !important;
 }
 
-body {
-	text-wrap: balance;
-}
-
-/* Industries Section Styles */
 .section_industries {
 	background: #fff;
 	color: #333;
@@ -3359,6 +3354,15 @@ body {
 }
 
 @media screen and (max-width: 375px) {
-	.hero_bg_img {}
+	.hero_bg{
+		top:-20vh !important;
+	}
+	.hero_bg_img {
+		height: auto !important;
+		background-size: 200% !important;
+		background-position: 50% bottom !important;
+		width: 100% !important;
+		background-repeat: no-repeat !important;
+	}
 
 }
