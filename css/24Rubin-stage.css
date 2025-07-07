@@ -2912,7 +2912,7 @@ figcaption {
 		background-size: 200%;
 		width: 100%;
 		background-repeat: no-repeat;
-		height: 105vh;
+		height: 111vh;
 	}
 	.hero_content {
 		grid-row-gap: 0.8rem;
@@ -3356,4 +3356,9 @@ body {
 		margin: 0;
 		padding: 0 2rem;
 	}
+}
+
+@media screen and (max-width: 375px) {
+	.hero_bg_img {}
+
 }
