@@ -1343,6 +1343,7 @@ figcaption {
 	place-items: center start;
 	display: flex;
 	position: relative;
+	z-index: 9;
 }
 
 .hero_image {
@@ -1374,6 +1375,7 @@ figcaption {
 	padding-bottom: 10rem;
 	padding-top: 5rem;
 	display: flex;
+	z-index: 22222;
 }
 
 .nav_fixed {
@@ -2133,6 +2135,7 @@ figcaption {
 	background-position: center;
 	top: 46vh;
 	filter: drop-shadow(0px 0px 20px #000000dd);
+	display: none;
 }
 
 .w-richtext> :not(div):first-child,
@@ -2538,6 +2541,8 @@ figcaption {
 
 	.section_hero {
 		padding-top: 3rem;
+		overflow: visible;
+		height: 90vh;
 	}
 
 	.hero_grid {
@@ -3041,6 +3046,7 @@ figcaption {
 	}
 	.padding-global.padding-section-large{
 		padding-bottom: 50px;
+		height: 90vh;
 	}
 	#w-node-f63cbc6a-01b0-c56e-95d4-065080c06eda-1b217c45{
 		padding-top: 0px;
@@ -3091,18 +3097,7 @@ figcaption {
 		width: 50vw;
 		height: auto;
 	}
-	.logo_title{
-		background-image: url('../images/title.png');
-		width: 60%;
-		height: 37px;
-		/* border: 1px solid green; */
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position: center 0px;
-		left: 20%;
-		position: absolute;
-		top: unset;
-	}
+
 }
 
 @media screen and (max-width: 991px) {
@@ -3117,7 +3112,25 @@ figcaption {
 	#w-node-_5436a6ec-6389-43d0-1712-5eb0f1a2174d-1b217c45 {
 		justify-self: start;
 	}
+		.logo_title{
+		background-image: url('../images/title.png');
+		width: 60%;
+		height: 37px;
+		/* border: 1px solid green; */
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center 0px;
+		left: 20%;
+		position: absolute;
+		top: unset;
+		display: block;
+		animation: appear;
+		animation-duration: 6000ms;
+		animation-fill-mode: forwards;
+	}
+
 }
+
 
 
 @media screen and (max-width: 991px) {
@@ -3356,13 +3369,31 @@ figcaption {
 @media screen and (max-width: 375px) {
 	.hero_bg{
 		top:-20vh !important;
+		height: 110vh;
 	}
 	.hero_bg_img {
 		height: auto !important;
-		background-size: 200% !important;
-		background-position: 50% bottom !important;
+		background-size: 140% !important;
+		background-position: 50% 112% !important;
 		width: 100% !important;
 		background-repeat: no-repeat !important;
+		min-height: 100vh;
+		overflow: visible !important;
 	}
 
+}
+
+@keyframes appear {
+	0% {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+	50% {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
