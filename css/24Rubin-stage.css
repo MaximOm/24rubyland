@@ -1103,7 +1103,7 @@ figcaption {
 }
 
 .text-size-medium {
-	font-size: 2.05rem;
+	font-size: 1.85rem;
 }
 
 .fs-styleguide_section {
@@ -1353,7 +1353,7 @@ figcaption {
 
 .hero_heading {
 	text-align: center;
-	font-size: 2.5rem;
+	font-size: 2.4rem;
 }
 
 .section_hero {
@@ -1376,6 +1376,8 @@ figcaption {
 	padding-top: 5rem;
 	display: flex;
 	z-index: 22222;
+	text-shadow: 0 0 8px black;
+	
 }
 
 .nav_fixed {
@@ -1391,6 +1393,9 @@ figcaption {
 .section_backend {
 	color: var(--base-color-neutral--white);
 	background-color: #090b16;
+	margin-top: -1px;
+	padding-bottom: 2rem;
+	border-radius: 0 0 60px 60px;
 }
 
 .footer_component {
@@ -1551,7 +1556,7 @@ figcaption {
 }
 
 .backend_card_icon {
-	color: #ff0000;
+	color: #9a0606;
 	background-color: #2a2c32;
 	border-radius: 100%;
 	justify-content: center;
@@ -1885,8 +1890,8 @@ figcaption {
 
 .hero_bg_img {
 	background-image: url('../images/hero2.png');
-	background-position: 50% 390%;
-	background-size: 100%;
+	background-position: 50% 310%;
+	background-size: 96%;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	width: 100%;
@@ -2300,6 +2305,23 @@ figcaption {
 	width: 1rem;
 	height: 0.125rem;
 	position: absolute;
+}
+
+@media screen and (min-width: 1400px) {
+	.hero_bg {
+		height: 80vh;
+	}
+	section#Hero {
+		height: 80vh;
+	}
+	.hero_bg_img {
+		background-image: url('../images/hero2.png');
+		background-position: 50% 130%;
+		background-size: 90%;
+	}
+	#Benefits{
+		margin-top: 10vh;
+	}
 }
 
 @media screen and (max-width: 991px) {
@@ -3284,7 +3306,7 @@ figcaption {
 }
 
 .industries_item:before {
-	content: 'â—';
+	content: '●';
 	color: #C1002A;
 	font-size: 0.8rem;
 	margin-right: 0.75rem;
@@ -3306,7 +3328,7 @@ figcaption {
 }
 
 .industries_subtitle::before {
-	content: 'âš¡';
+	content: '⚡';
 	margin-right: 0.5rem;
 	color: #C1002A;
 }
