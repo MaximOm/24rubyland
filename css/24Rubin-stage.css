@@ -2951,7 +2951,7 @@ figcaption {
 		font-size: 0.9em;
 	}
 	.hero_bg_img {
-		background-position: 50% bottom;
+		background-position: 50% 45vh;
 		background-size: 200%;
 		width: 100%;
 		background-repeat: no-repeat;
@@ -3068,7 +3068,7 @@ figcaption {
 
 	.hero_heading {
 		margin-top: 1.8rem;
-		font-size: 2.2rem;
+		font-size: 1.6rem;
 	}
 	.hero_heading ~ p {
 		font-size: 1.1rem;
@@ -3137,7 +3137,13 @@ figcaption {
 		width: 50vw;
 		height: auto;
 	}
-
+	#Benefits > div {
+		margin-top: 2rem !important;
+	}
+	.nav_menu{
+		margin-top: -10px;
+		padding-top: 10px;
+	}
 }
 
 @media screen and (max-width: 991px) {
@@ -3307,7 +3313,7 @@ figcaption {
 
 
 .industries_list {
-	list-style: none;
+	list-style: disc;
 	padding: 0;
 	margin: 0;
 }
@@ -3321,14 +3327,14 @@ figcaption {
 	color: #333;
 }
 
-.industries_item:before {
-	content: 'â—';
+/* .industries_item:before {
+	content: '';
 	color: #C1002A;
 	font-size: 0.8rem;
 	margin-right: 0.75rem;
 	font-weight: bold;
 	transition: all 0.3s ease;
-}
+} */
 
 .industries_subtitle {
 	text-align: center;
