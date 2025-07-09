@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Кнопка Рубин</title>
+  <style>
+    body {
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .ruby-button {
+      position: relative;
+      padding: 1rem 2.5rem;
+      font-size: 1.25rem;
+      font-weight: bold;
+      color: white;
+      background: linear-gradient(135deg, #9b111e, #c72c48);
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      overflow: hidden;
+      z-index: 1;
+      transition: transform 0.3s;
+      box-shadow: 0 0 10px rgba(203, 0, 43, 0.4);
+    }
+
+    .ruby-button::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(120deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.6) 50%, rgba(255,255,255,0.2) 100%);
+      transform: skewX(-20deg);
+      z-index: 2;
+      opacity: 0;
+    }
+
+    .ruby-button.animate::before {
+      animation: shimmer 2s ease-in-out forwards;
+    }
+
+    @keyframes shimmer {
+      0% {
+        left: -100%;
+        opacity: 0;
+      }
+      10% {
+        opacity: 1;
+      }
+      50% {
+        left: 100%;
+        opacity: 1;
+      }
+      100% {
+        left: 100%;
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <button class="ruby-button" id="rubyBtn">Нажми меня</button>
+
+  <script>
+    const btn = document.getElementById('rubyBtn');
+
+    function triggerShimmer() {
+      btn.classList.remove('animate');
+      // Перезапуск анимации
+      void btn.offsetWidth;
+      btn.classList.add('animate');
+    }
+
+    // Запуск каждые 10 секунд
+    setInterval(triggerShimmer, 10000);
+
+    // Первый запуск через 1 сек после загрузки
+    setTimeout(triggerShimmer, 1000);
+  </script>
+</body>
+</html>
