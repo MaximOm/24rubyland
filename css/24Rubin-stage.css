@@ -1896,23 +1896,16 @@ figcaption {
 
 .hero_bg {
 	background-image: url('../images/herobg.jpg');
-	background-position: 50% 21vh;
+	background-position-x: 50%;
 	background-size: 150%;
 	background-repeat: no-repeat;
 	/* background-attachment: fixed; */
 	width: 100%;
-	animation: bgapear;
+	animation-name: bgapear;
 	animation-duration: 5s;
 	animation-fill-mode: forwards;
 }
-@keyframes bgapear {
-	0% {
-		background-position-y: 50vw;
-	}
-	100% {
-		background-position-y: -25vh;
-	}
-}
+
 .language_dropdown-list {
 	grid-column-gap: 0.25rem;
 	grid-row-gap: 0.25rem;
@@ -2202,14 +2195,6 @@ figcaption {
 	}
 
 
-	@keyframes bgapear {
-		0% {
-			background-position-y: 100vw;
-		}
-		100% {
-			background-position-y: 21vh;
-		}
-	}
 
 .footer_copyright{
 	width: 100%;
@@ -2339,14 +2324,14 @@ figcaption {
 @media screen and (min-width: 1400px) {
 	.hero_bg {
 		height: 80vh;
+		/* background-position: 50% 22vh; */
+		background-size: 90%;
+		animation-name: bgapear1900;
 	}
 	section#Hero {
 		height: 80vh;
 	}
-	.hero_bg_img {
-		background-position: 50% 22vh;
-		background-size: 90%;
-	}
+
 	#Benefits{
 		margin-top: 10vh;
 	}
@@ -2355,17 +2340,40 @@ figcaption {
 @media screen and (max-width: 1400px) {
 	.hero_bg {
 		height: 80vh;
+		/* background-position: 50% 210%; */
+		background-size: 80%;
+		animation-name: bgapear1400;
+
 	}
+
+
 	section#Hero {
 		height: 80vh;
-	}
-	.hero_bg_img {
-		background-position: 50% 210%;
-		background-size: 80%;
 	}
 	#Benefits{
 		margin-top: 0vh;
 	}
+}
+
+
+@media screen and (max-width: 1280px) {
+	.hero_bg {
+		height: 80vh;
+		/* background-position: 50% 210%; */
+		background-size: 80%;
+		animation-name: bgapear1280;
+	}
+
+}
+
+
+@media screen and (max-width: 1024px) {
+	.hero_bg {
+		height: 80vh;
+		background-size: 80%;
+		animation-name: bgapear1024;
+	}
+
 }
 
 @media screen and (max-width: 991px) {
@@ -2979,13 +2987,7 @@ figcaption {
 	.heading-style-h3 ~ div.max-width-medium{
 		font-size: 0.9em;
 	}
-	.hero_bg_img {
-		background-position: 50% 45vh;
-		background-size: 200%;
-		width: 100%;
-		background-repeat: no-repeat;
-		height: 111vh;
-	}
+
 	.hero_content {
 		grid-row-gap: 0.8rem;
 		flex-flow: column;
@@ -3199,7 +3201,7 @@ figcaption {
 		position: absolute;
 		top: unset;
 		display: block;
-		animation: appear;
+		animation-name: appear;
 		animation-duration: 6000ms;
 		animation-fill-mode: forwards;
 	}
@@ -3441,21 +3443,12 @@ figcaption {
 	}
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 440px) {
 	.hero_bg{
 		top:-20vh !important;
 		height: 110vh;
+		animation-name: bgapear440;
 	}
-	.hero_bg_img {
-		height: auto !important;
-		background-size: 140% !important;
-		background-position: 50% 112% !important;
-		width: 100% !important;
-		background-repeat: no-repeat !important;
-		min-height: 100vh;
-		overflow: visible !important;
-	}
-
 }
 
 @keyframes appear {
@@ -3511,7 +3504,7 @@ figcaption {
 	}
 
 	.ruby-button.animate::before {
-	  animation: shimmer 2s ease-in-out forwards;
+	  animation-name: shimmer 2s ease-in-out forwards;
 	}
 
 	@keyframes shimmer {
@@ -3531,3 +3524,63 @@ figcaption {
 		opacity: 0;
 	  }
 	}
+
+
+
+@keyframes bgapear1024 {
+	0% {
+		background-position-y: 50vh;
+	}
+	100% {
+		background-position-y: 8vh;
+	}
+}
+
+@keyframes bgapear1280 {
+	0% {
+		background-position-y: 50vw;
+	}
+	100% {
+		background-position-y: -8vh;
+	}
+}
+
+@keyframes bgapear1400 {
+	0% {
+		background-position-y: 50vw;
+	}
+	100% {
+		background-position-y: -25vh;
+	}
+}
+
+
+@keyframes bgapear1900 {
+	0% {
+		background-position-y: 50vw;
+	}
+	100% {
+		background-position-y: 60%;
+	}
+}
+
+@keyframes bgapearmax {
+	0% {
+		background-position-y: 50vw;
+	}
+	100% {
+		background-position-y: -19vh;
+	}
+}
+
+
+
+@keyframes bgapear440 {
+	0% {
+		background-position-y: 50vw;
+	}
+	100% {
+		background-position-y: 53vh;
+		background-size: 140%;
+	}
+}
