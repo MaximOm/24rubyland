@@ -2047,19 +2047,19 @@ figcaption {
 }
 
 .scaling_grid {
-	grid-column-gap: 1.25rem;
+	grid-column-gap: 1rem;
 	grid-row-gap: 3rem;
 	-ms-grid-rows: auto 3rem auto 3rem auto 3rem auto 3rem minmax(0, -webkit-min-content);
 	-ms-grid-rows: auto 3rem auto 3rem auto 3rem auto 3rem minmax(0, min-content);
 	-ms-grid-columns: 1fr 1.25rem 1fr;
-	    grid-template:
+	grid-template:
 		'Area Area-3'
 		'Area Area-3'
 		'Area-2 Area-3'
 		'Area-2 Area-4'
 		'. Area-4' minmax(0, -webkit-min-content)
 		/ 1fr 1fr;
-	    grid-template:
+	grid-template:
 		'Area Area-3'
 		'Area Area-3'
 		'Area-2 Area-3'
@@ -2071,7 +2071,8 @@ figcaption {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .scaling_head {
@@ -2104,8 +2105,8 @@ figcaption {
 .scaling_card.is-horizontal {
 	grid-column-gap: 1rem;
 	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -2314,7 +2315,7 @@ figcaption {
 
 .solutions_card_img.is-2 {
 	background-image: url('../images/solution2.jpg');
-	background-size: cover;
+	/* background-size: cover; */
 }
 
 .solutions_card_content {
@@ -4109,10 +4110,12 @@ figcaption {
 
 .industries_grid {
 	display: -ms-grid;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-	gap: 2rem;
+	display: flex;
+	/* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
+	gap: 6rem;
 	margin-bottom: 3rem;
+	justify-content: center;
+	padding-left: 4%;
 }
 
 .industries_column {
@@ -4163,7 +4166,7 @@ figcaption {
 }
 
 .industries_subtitle::before {
-   content: '⚡';
+   content: 'âš¡';
 	margin-right: 0.5rem;
 	color: #C1002A;
 }
@@ -4462,7 +4465,7 @@ figcaption {
 		background-position-y: 50vw;
 	}
 	100% {
-		background-position-y: 53vh;
+		background-position-y: bottom;
 		background-size: 140%;
 	}
 }
@@ -4474,7 +4477,7 @@ figcaption {
 		background-position-y: 50vw;
 	}
 	100% {
-		background-position-y: 53vh;
+		background-position-y: bottom;
 		background-size: 140%;
 	}
 }
