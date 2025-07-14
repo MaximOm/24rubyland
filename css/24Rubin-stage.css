@@ -2747,7 +2747,11 @@ figcaption {
 
 
 }
-
+@media screen and (min-width: 611px) {
+	.topmobile {
+		display: none !important;
+	}
+}
 .button_component:hover {
 	background-color: #ff1a6e;
 }
