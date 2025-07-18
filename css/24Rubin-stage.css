@@ -2941,11 +2941,11 @@ figcaption {
 
 @media screen and (max-width: 1280px) {
 	.hero_bg {
-		height: 80vh;
+		height: 74vh;
 		/* background-position: 50% 210%; */
 		background-size: 80%;
 		-webkit-animation-name: bgapear1280;
-		        animation-name: bgapear1280;
+		animation-name: bgapear1280;
 	}
 
 }
@@ -4345,7 +4345,7 @@ figcaption {
 		background-position-y: 50vh;
 	}
 	100% {
-		background-position-y: 8vh;
+		background-position-y: bottom;
 	}
 }
 
@@ -4365,7 +4365,7 @@ figcaption {
 		background-position-y: 50vw;
 	}
 	100% {
-		background-position-y: -8vh;
+		background-position-y: bottom;
 	}
 }
 
@@ -4374,7 +4374,7 @@ figcaption {
 		background-position-y: 50vw;
 	}
 	100% {
-		background-position-y: -8vh;
+		background-position-y: bottom;
 	}
 }
 
@@ -4383,7 +4383,7 @@ figcaption {
 		background-position-y: 50vw;
 	}
 	100% {
-		background-position-y: -25vh;
+		background-position-y: bottom;
 	}
 }
 
@@ -4392,7 +4392,7 @@ figcaption {
 		background-position-y: 50vw;
 	}
 	100% {
-		background-position-y: -25vh;
+		background-position-y: bottom;
 	}
 }
 
@@ -4402,7 +4402,7 @@ figcaption {
 		background-position-y: 50vw;
 	}
 	100% {
-		background-position-y: 60%;
+		background-position-y: bottom;
 	}
 }
 
@@ -4412,7 +4412,7 @@ figcaption {
 		background-position-y: 50vw;
 	}
 	100% {
-		background-position-y: 60%;
+		background-position-y: bottom;
 	}
 }
 
@@ -4421,7 +4421,7 @@ figcaption {
 		background-position-y: 50vw;
 	}
 	100% {
-		background-position-y: -19vh;
+		background-position-y: bottom;
 	}
 }
 
@@ -4430,7 +4430,7 @@ figcaption {
 		background-position-y: 50vw;
 	}
 	100% {
-		background-position-y: -19vh;
+		background-position-y: bottom;
 	}
 }
 
