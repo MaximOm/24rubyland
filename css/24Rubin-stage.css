@@ -2953,10 +2953,10 @@ figcaption {
 
 @media screen and (max-width: 1024px) {
 	.hero_bg {
-		height: 80vh;
-		background-size: 80%;
+		height: 60vh;
+		background-size: 110%;
 		-webkit-animation-name: bgapear1024;
-		        animation-name: bgapear1024;
+		animation-name: bgapear1024;
 	}
 
 }
@@ -3181,6 +3181,7 @@ figcaption {
 
 	.nav_brand {
 		z-index: 2;
+		max-width: 10vw;
 	}
 
 	.nav_menu {
@@ -4138,7 +4139,7 @@ figcaption {
 }
 
 .industries_subtitle::before {
-   content: '⚡';
+   content: 'âš¡';
 	margin-right: 0.5rem;
 	color: #C1002A;
 	font-size: 1.2rem;
@@ -4355,7 +4356,7 @@ figcaption {
 		background-position-y: 50vh;
 	}
 	100% {
-		background-position-y: 8vh;
+		background-position-y: bottom;
 	}
 }
 
