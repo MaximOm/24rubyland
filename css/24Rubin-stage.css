@@ -492,8 +492,8 @@ figcaption {
 .fs-styleguide_spacing {
 	grid-column-gap: 0.5rem;
 	grid-row-gap: 0.5rem;
-	background-image: -webkit-gradient(linear, left bottom, left top, from(#2d40ea1a), to(#fff0));
 	background-image: -o-linear-gradient(bottom, #2d40ea1a, #fff0);
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#2d40ea1a), to(#fff0));
 	background-image: linear-gradient(to top, #2d40ea1a, #fff0);
 	-ms-grid-rows: auto 0.5rem auto;
 	grid-template-rows: auto auto;
@@ -2019,7 +2019,9 @@ figcaption {
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 
 .scaling_head {
@@ -2303,8 +2305,8 @@ figcaption {
 .solutions_header {
 	text-align: center;
 	-webkit-text-fill-color: transparent;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#efbdc8), color-stop(44%, #c24a4c), to(#00b2ff00));
 	background-image: -o-linear-gradient(#efbdc8, #c24a4c 44%, #00b2ff00);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#efbdc8), color-stop(44%, #c24a4c), to(#00b2ff00));
 	background-image: linear-gradient(#efbdc8, #c24a4c 44%, #00b2ff00);
 	-webkit-background-clip: text;
 	background-clip: text;
@@ -2741,7 +2743,8 @@ figcaption {
 		color: white;
 		position: absolute;
 		top: 6px;
-		animation: appear 5s ease forwards;
+		-webkit-animation: appear 5s ease forwards;
+		        animation: appear 5s ease forwards;
 		z-index: 999;
 	}
 
@@ -4086,11 +4089,15 @@ figcaption {
 
 .industries_grid {
 	display: -ms-grid;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	/* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
 	gap: 6rem;
 	margin-bottom: 3rem;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	padding-left: 4%;
 }
 
