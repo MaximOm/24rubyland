@@ -3198,7 +3198,7 @@ figcaption {
 		-webkit-box-align: center;
 			-ms-flex-align: center;
 				align-items: center;
-		width: calc(100% - 4rem);
+		/* width: calc(100% - 4rem); */
 		min-width: 100vw;
 		padding: 2rem;
 		display: none;
@@ -3600,7 +3600,9 @@ figcaption {
 	}
 
 	.nav_menu {
-		width: calc(100% - 0rem);
+		/* width: calc(100% - 0rem); */
+		width: 100%;
+		min-width: 100vw;
 	}
 
 	.cta_component {
