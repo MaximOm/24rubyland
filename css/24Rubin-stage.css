@@ -2064,7 +2064,7 @@ figcaption {
 	background-image: url('../images/scaling-card.png');
 	background-position: 100% 0;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	border-radius: 2rem;
 	position: absolute;
 	inset: 0%;
