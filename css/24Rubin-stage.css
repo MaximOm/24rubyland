@@ -3199,6 +3199,7 @@ figcaption {
 			-ms-flex-align: center;
 				align-items: center;
 		width: calc(100% - 4rem);
+		min-width: 100vw;
 		padding: 2rem;
 		display: none;
 		position: absolute;
