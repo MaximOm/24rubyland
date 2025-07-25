@@ -48,7 +48,7 @@
 
 .nav_background {
 	position: fixed;
-	top: -52vh;
+	top: -60vh;
 	left: 0;
 	right: 0;
 	width: 100%;
@@ -1698,8 +1698,10 @@ figcaption {
 	border-bottom-right-radius: 60px;
 	border-bottom-left-radius: 60px;
 	position: absolute;
+	/* top: 0px; */
 	inset: 0%;
 	overflow: hidden;
+	top: -90px;
 }
 
 .footer_grid {
